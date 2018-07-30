@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+#conversation{
+    width: 80%;
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.message__text{
+    display: block;
+    background-color: dodgerblue;
+    color: white;
+
+    padding: 10px;
+    border-radius: 30px;
+    width: 75%;
+
+    margin: 15px auto;
+}
+
+.message__bot{
+    display: block;
+    background-color:greenyellow;
+    color: black;
+
+    padding: 10px;
+    border-radius: 30px;
+    width: 75%;  
+
+    margin: 15px auto;
+}
+
+.input__text{
+    width: 75%;
+    margin: 15px auto;
+}
+
+.button__get{
+    width: 75%;
+    margin: 15px auto;
+    margin-top: 0;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+}
